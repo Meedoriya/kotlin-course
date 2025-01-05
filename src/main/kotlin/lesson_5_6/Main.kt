@@ -1,4 +1,4 @@
-package lesson_5
+package lesson_5_6
 
 fun main() {
 
@@ -13,8 +13,14 @@ fun main() {
         id = 2,
         name = "Ramen",
         category = "dinner",
-        ingredients = listOf("вермешель", "курица", "вода", "соль", "перец"),
+        ingredients = listOf("вермишель", "курица", "вода", "соль", "перец"),
     )
+
+    val ingredient1 = Ingredient("картошка", 1, 1)
+    val ingredient2 = Ingredient("морковь", 2, 3, true)
+
+    println(ingredient1.name)
+    println(ingredient2.name)
 
 //    println(dish1.name)
 //    println(dish1.ingredients)
@@ -29,18 +35,18 @@ fun main() {
 //    println(dish1.category)
 //    println(dish2.inFavorites)
 
-    println("Действия для блюда Яичница")
-    dish1.addToFavorites()
-    println(dish1.inFavorites)
-    dish1.startCooking()
-
-    println()
-
-    println("Действия для блюда Суп лапша")
-    dish1.addToFavorites()
-    println(dish2.inFavorites)
-    val ingredientsForSoup = dish2.downloadIngredients()
-    println(ingredientsForSoup)
-    dish2.removeFromFavorites()
-    println(dish2.inFavorites)
+//    println("Действия для блюда Яичница")
+//    dish1.addToFavorites()
+//    println(dish1.inFavorites)
+//    dish1.startCooking()
+//
+//    println()
+//
+//    println("Действия для блюда Суп лапша")
+//    dish1.addToFavorites()
+//    println(dish2.inFavorites)
+//    val ingredientsForSoup = dish2.downloadIngredients()
+//    println(ingredientsForSoup)
+//    dish2.removeFromFavorites()
+//    println(dish2.inFavorites)
 }

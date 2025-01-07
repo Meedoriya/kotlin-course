@@ -24,8 +24,6 @@ The course comprises 25 video lessons that systematically cover the core concept
 14. **Lesson 14**: Lambda Functions (Lambdas), Anonymous Functions
 15. **Lesson 15**: Extensions (Extension Functions)
 16. **Lesson 16**: Data Classes; Functions `copy`, `toString`, `equals`, `hashCode`
-17. **Lesson 17**: Software Development Theory; Creating a Telegram Bot
-18. **Lesson 18**: Working with Git and GitHub; Branches, Pull Requests; Installation and Setup
 
 ## How to Use This Course
 
